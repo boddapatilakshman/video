@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        video{
+            width: 100%;
+            position: relative;
+            height: auto;
+            overflow: hidden;
+        }
+        header{
+            display: flex;
+            position: absolute;
+            height: 60px;
+            width: 100%;
+            top: 0%;
+            background-color: brown;
+            font-size: 10px;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+
+        }
+        nav li{
+            list-style-type: none;
+        }
+         nav {
+            font-size: 20px;
+            font-weight: bold;
+            display: flex;
+            width: 30%;
+            justify-content: space-between;
+            text-decoration: none;
+         } 
+         nav ul li a{
+            text-decoration: none;
+         }
+        h1{
+            display: flex;
+        }
+        img{
+           position: absolute;
+           height: 200px;
+           width: 200px;
+           left: 400px;
+           top: 240px;
+           background-color: aqua;
+        }
+        p{
+            position: absolute;
+            height: 200px;
+            width: 200px;
+            right: 400px;
+            top: 200px;
+            padding: 20px;
+            font-weight: bold;
+        }
+        .about{
+            height: 100px;
+            width: 100px;
+        }
+        .menubar ul li a:hover{
+            color:var(--color--primary);
+        }
+        .drop1 ul{
+            display: block;
+            margin: 10px;
+        }
+        .drop ul li{
+            width: 100px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted src="./video footage.webm"></video>
+    <header>
+       <h1>POSITIONS</h1>
+       <nav class="menubar">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+       </nav>
+    </header>
+        <img src="./image 5.jpeg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veritatis molestias aut est sunt quaerat perspiciatis consequuntur magni. Ipsam enim laudantium perferendis perspiciatis fugit quis ipsum, mollitia animi facilis accusamus!</p>
+</body>
+</html>
